@@ -36,6 +36,9 @@ ol li{
 
 /********** Container **********/
 
+.responsive{
+  margin-bottom: 30px;
+}
 .recrutement{
   background-image: url("./images/talent.jpeg");
   background-size: cover;
@@ -58,7 +61,7 @@ ol li{
 }
 
 .img-fluid{
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 /**** search form *****/
