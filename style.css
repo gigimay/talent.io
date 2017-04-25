@@ -1,0 +1,72 @@
+/****** Container-fluid ******/
+ol{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+}
+ol li{
+  margin-right: 30px;
+}
+.container-fluid{
+  background-color: rgb(101,156,239);
+  color: white;
+  height: 250px;
+  /*text-align: center;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin-top: 30px;
+}
+.candidates{
+  display: flex;
+  justify-content: space-around;
+}
+
+.font-awesome{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+.font-awesome i{
+  padding-left: 20px;
+}
+
+/********** Container **********/
+
+.recrutement{
+  background-image: url("./images/talent.jpeg");
+  background-size: cover;
+}
+.info{
+  margin-left: 10px;
+  margin-bottom: 60px;
+}
+.inf{
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+.prof-img{
+  display: flex;
+}
+.prof-img img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.img-fluid{
+  margin-bottom: 15px;
+}
+
+/**** search form *****/
+
+#input {
+  display: none;
+}
+#search{
+  display: flex;
+  align-items: center;
+}
